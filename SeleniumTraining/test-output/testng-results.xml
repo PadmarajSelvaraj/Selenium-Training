@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="1" total="10" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-11T09:25:19 IST" name="TestSuite" finished-at="2021-10-11T09:25:29 IST" duration-ms="10185">
+    <groups>
+    </groups>
+    <test started-at="2021-10-11T09:25:19 IST" name="ButtonUITest" finished-at="2021-10-11T09:25:25 IST" duration-ms="5725">
+      <class name="com.seleniumtraining.test.VerifyButtonOperations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.seleniumtraining.test.VerifyButtonOperations@31ea9581]" started-at="2021-10-11T09:25:19 IST" name="launchApplication" finished-at="2021-10-11T09:25:22 IST" duration-ms="2841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="pageTitleValidation()[pri:0, instance:com.seleniumtraining.test.VerifyButtonOperations@31ea9581]" started-at="2021-10-11T09:25:22 IST" name="pageTitleValidation" finished-at="2021-10-11T09:25:22 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleValidation -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.seleniumtraining.test.VerifyButtonOperations@31ea9581]" started-at="2021-10-11T09:25:22 IST" name="teardownMethod" finished-at="2021-10-11T09:25:23 IST" duration-ms="870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pageTitleValidation status=SUCCESS method=VerifyButtonOperations.pageTitleValidation()[pri:0, instance:com.seleniumtraining.test.VerifyButtonOperations@31ea9581] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method signature="pditFieldValidation()[pri:2, instance:com.seleniumtraining.test.VerifyButtonOperations@31ea9581]" started-at="2021-10-11T09:25:23 IST" name="pditFieldValidation" finished-at="2021-10-11T09:25:23 IST" depends-on-methods="com.seleniumtraining.test.VerifyButtonOperations.pageTitleValidation" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pditFieldValidation -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.seleniumtraining.test.VerifyButtonOperations@31ea9581]" started-at="2021-10-11T09:25:23 IST" name="teardownMethod" finished-at="2021-10-11T09:25:23 IST" duration-ms="241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pditFieldValidation status=SUCCESS method=VerifyButtonOperations.pditFieldValidation()[pri:2, instance:com.seleniumtraining.test.VerifyButtonOperations@31ea9581] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method signature="movetoElement()[pri:3, instance:com.seleniumtraining.test.VerifyButtonOperations@31ea9581]" started-at="2021-10-11T09:25:23 IST" name="movetoElement" finished-at="2021-10-11T09:25:24 IST" depends-on-methods="com.seleniumtraining.test.VerifyButtonOperations.pageTitleValidation" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movetoElement -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.seleniumtraining.test.VerifyButtonOperations@31ea9581]" started-at="2021-10-11T09:25:24 IST" name="teardownMethod" finished-at="2021-10-11T09:25:24 IST" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=movetoElement status=SUCCESS method=VerifyButtonOperations.movetoElement()[pri:3, instance:com.seleniumtraining.test.VerifyButtonOperations@31ea9581] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method signature="colorValidate()[pri:4, instance:com.seleniumtraining.test.VerifyButtonOperations@31ea9581]" started-at="2021-10-11T09:25:24 IST" name="colorValidate" finished-at="2021-10-11T09:25:24 IST" depends-on-methods="com.seleniumtraining.test.VerifyButtonOperations.pageTitleValidation" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- colorValidate -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.seleniumtraining.test.VerifyButtonOperations@31ea9581]" started-at="2021-10-11T09:25:24 IST" name="teardownMethod" finished-at="2021-10-11T09:25:24 IST" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=colorValidate status=SUCCESS method=VerifyButtonOperations.colorValidate()[pri:4, instance:com.seleniumtraining.test.VerifyButtonOperations@31ea9581] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method signature="sizeValidate()[pri:6, instance:com.seleniumtraining.test.VerifyButtonOperations@31ea9581]" started-at="2021-10-11T09:25:24 IST" name="sizeValidate" finished-at="2021-10-11T09:25:24 IST" depends-on-methods="com.seleniumtraining.test.VerifyButtonOperations.pageTitleValidation" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sizeValidate -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.seleniumtraining.test.VerifyButtonOperations@31ea9581]" started-at="2021-10-11T09:25:24 IST" name="teardownMethod" finished-at="2021-10-11T09:25:24 IST" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sizeValidate status=SUCCESS method=VerifyButtonOperations.sizeValidate()[pri:6, instance:com.seleniumtraining.test.VerifyButtonOperations@31ea9581] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.seleniumtraining.test.VerifyButtonOperations@31ea9581]" started-at="2021-10-11T09:25:24 IST" name="tearDown" finished-at="2021-10-11T09:25:25 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.seleniumtraining.test.VerifyButtonOperations -->
+    </test> <!-- ButtonUITest -->
+    <test started-at="2021-10-11T09:25:25 IST" name="EditUITest" finished-at="2021-10-11T09:25:29 IST" duration-ms="4413">
+      <class name="com.seleniumtraining.test.VerifyEditOperations">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.seleniumtraining.test.VerifyEditOperations@740fb309]" started-at="2021-10-11T09:25:19 IST" name="setup" finished-at="2021-10-11T09:25:19 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.seleniumtraining.test.VerifyEditOperations@740fb309]" started-at="2021-10-11T09:25:25 IST" name="launchApplication" finished-at="2021-10-11T09:25:27 IST" duration-ms="2503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="PageTitleValidation()[pri:0, instance:com.seleniumtraining.test.VerifyEditOperations@740fb309]" started-at="2021-10-11T09:25:27 IST" name="PageTitleValidation" finished-at="2021-10-11T09:25:28 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageTitleValidation -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.seleniumtraining.test.VerifyEditOperations@740fb309]" started-at="2021-10-11T09:25:28 IST" name="teardownMethod" finished-at="2021-10-11T09:25:28 IST" duration-ms="280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PageTitleValidation status=SUCCESS method=VerifyEditOperations.PageTitleValidation()[pri:0, instance:com.seleniumtraining.test.VerifyEditOperations@740fb309] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method retried="true" signature="EditFieldValidation()[pri:1, instance:com.seleniumtraining.test.VerifyEditOperations@740fb309]" started-at="2021-10-11T09:25:28 IST" name="EditFieldValidation" finished-at="2021-10-11T09:25:28 IST" duration-ms="245" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.seleniumtraining.test.VerifyEditOperations.EditFieldValidation(VerifyEditOperations.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditFieldValidation -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.seleniumtraining.test.VerifyEditOperations@740fb309]" started-at="2021-10-11T09:25:28 IST" name="teardownMethod" finished-at="2021-10-11T09:25:28 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditFieldValidation status=SKIP method=VerifyEditOperations.EditFieldValidation()[pri:1, instance:com.seleniumtraining.test.VerifyEditOperations@740fb309] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method retried="true" signature="EditFieldValidation()[pri:1, instance:com.seleniumtraining.test.VerifyEditOperations@740fb309]" started-at="2021-10-11T09:25:28 IST" name="EditFieldValidation" finished-at="2021-10-11T09:25:28 IST" duration-ms="149" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.seleniumtraining.test.VerifyEditOperations.EditFieldValidation(VerifyEditOperations.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditFieldValidation -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.seleniumtraining.test.VerifyEditOperations@740fb309]" started-at="2021-10-11T09:25:28 IST" name="teardownMethod" finished-at="2021-10-11T09:25:28 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditFieldValidation status=SKIP method=VerifyEditOperations.EditFieldValidation()[pri:1, instance:com.seleniumtraining.test.VerifyEditOperations@740fb309] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method signature="EditFieldValidation()[pri:1, instance:com.seleniumtraining.test.VerifyEditOperations@740fb309]" started-at="2021-10-11T09:25:28 IST" name="EditFieldValidation" finished-at="2021-10-11T09:25:28 IST" duration-ms="141" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.seleniumtraining.test.VerifyEditOperations.EditFieldValidation(VerifyEditOperations.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditFieldValidation -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.seleniumtraining.test.VerifyEditOperations@740fb309]" started-at="2021-10-11T09:25:28 IST" name="teardownMethod" finished-at="2021-10-11T09:25:29 IST" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditFieldValidation status=FAILURE method=VerifyEditOperations.EditFieldValidation()[pri:1, instance:com.seleniumtraining.test.VerifyEditOperations@740fb309] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.seleniumtraining.test.VerifyEditOperations@740fb309]" started-at="2021-10-11T09:25:29 IST" name="tearDown" finished-at="2021-10-11T09:25:29 IST" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.seleniumtraining.test.VerifyEditOperations -->
+    </test> <!-- EditUITest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
