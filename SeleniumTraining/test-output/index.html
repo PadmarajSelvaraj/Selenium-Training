@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-TestSuite" class="navigator-link ">
-                    <span>C:\Users\91725\eclipse-workspace\SeleniumTraining\src\test\resources\testngalltestcases.xml</span>
+                    <span>C:\Users\91725\git\Selenium-Training\SeleniumTraining\src\test\resources\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods, 1 failed,  2 skipped,  6 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,  2 skipped,  1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -138,31 +138,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestSuite" title="com.seleniumtraining.test.VerifyEditOperations" class="method navigator-link" hash-for-method="PageTitleValidation">PageTitleValidation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestSuite" title="com.seleniumtraining.test.VerifyButtonOperations" class="method navigator-link" hash-for-method="colorValidate">colorValidate</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestSuite" title="com.seleniumtraining.test.VerifyButtonOperations" class="method navigator-link" hash-for-method="movetoElement">movetoElement</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestSuite" title="com.seleniumtraining.test.VerifyButtonOperations" class="method navigator-link" hash-for-method="pageTitleValidation">pageTitleValidation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestSuite" title="com.seleniumtraining.test.VerifyButtonOperations" class="method navigator-link" hash-for-method="pditFieldValidation">pditFieldValidation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestSuite" title="com.seleniumtraining.test.VerifyButtonOperations" class="method navigator-link" hash-for-method="sizeValidate">sizeValidate</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TestSuite -->
@@ -232,49 +207,6 @@
           <div class="suite-TestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.seleniumtraining.test.VerifyButtonOperations</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="colorValidate">
-                  </a> <!-- colorValidate -->
-                  <span class="method-name">colorValidate</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="movetoElement">
-                  </a> <!-- movetoElement -->
-                  <span class="method-name">movetoElement</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="pageTitleValidation">
-                  </a> <!-- pageTitleValidation -->
-                  <span class="method-name">pageTitleValidation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="pditFieldValidation">
-                  </a> <!-- pditFieldValidation -->
-                  <span class="method-name">pditFieldValidation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="sizeValidate">
-                  </a> <!-- sizeValidate -->
-                  <span class="method-name">sizeValidate</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestSuite-class-passed -->
-          <div class="suite-TestSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.seleniumtraining.test.VerifyEditOperations</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -290,7 +222,7 @@
         </div> <!-- panel TestSuite -->
         <div panel-name="test-xml-TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\91725\eclipse-workspace\SeleniumTraining\src\test\resources\testngalltestcases.xml</span>
+            <span class="header-content">C:\Users\91725\git\Selenium-Training\SeleniumTraining\src\test\resources\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -302,11 +234,21 @@
     &lt;listener class-name=&quot;com.seleniumtraining.utils.Log4jListeners&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;1&quot; name=&quot;ButtonUITest&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;sanity&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.seleniumtraining.test.VerifyButtonOperations&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ButtonUITest --&gt;
   &lt;test thread-count=&quot;1&quot; name=&quot;EditUITest&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;exclude name=&quot;sanity&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.seleniumtraining.test.VerifyEditOperations&quot;/&gt;
     &lt;/classes&gt;
@@ -351,43 +293,23 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'EditFieldValidation')
+data.setCell(0, 1, 'PageTitleValidation')
 data.setCell(0, 2, 'com.seleniumtraining.test.VerifyEditOperations')
-data.setCell(0, 3, 245);
+data.setCell(0, 3, 465);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'pageTitleValidation')
-data.setCell(1, 2, 'com.seleniumtraining.test.VerifyButtonOperations')
-data.setCell(1, 3, 244);
+data.setCell(1, 1, 'EditFieldValidation')
+data.setCell(1, 2, 'com.seleniumtraining.test.VerifyEditOperations')
+data.setCell(1, 3, 386);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'PageTitleValidation')
+data.setCell(2, 1, 'EditFieldValidation')
 data.setCell(2, 2, 'com.seleniumtraining.test.VerifyEditOperations')
-data.setCell(2, 3, 182);
+data.setCell(2, 3, 292);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'movetoElement')
-data.setCell(3, 2, 'com.seleniumtraining.test.VerifyButtonOperations')
-data.setCell(3, 3, 161);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'EditFieldValidation')
-data.setCell(4, 2, 'com.seleniumtraining.test.VerifyEditOperations')
-data.setCell(4, 3, 149);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'EditFieldValidation')
-data.setCell(5, 2, 'com.seleniumtraining.test.VerifyEditOperations')
-data.setCell(5, 3, 141);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'pditFieldValidation')
-data.setCell(6, 2, 'com.seleniumtraining.test.VerifyButtonOperations')
-data.setCell(6, 3, 40);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'colorValidate')
-data.setCell(7, 2, 'com.seleniumtraining.test.VerifyButtonOperations')
-data.setCell(7, 3, 38);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'sizeValidate')
-data.setCell(8, 2, 'com.seleniumtraining.test.VerifyButtonOperations')
-data.setCell(8, 3, 21);
+data.setCell(3, 1, 'EditFieldValidation')
+data.setCell(3, 2, 'com.seleniumtraining.test.VerifyEditOperations')
+data.setCell(3, 3, 201);
 window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
 return data;
 }
@@ -407,13 +329,23 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">6 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.seleniumtraining.test.VerifyButtonOperations</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">pageTitleValidation</span>
+                <br/>
+                <span class="ignored-method-name">colorValidate</span>
+                <br/>
+                <span class="ignored-method-name">sizeValidate</span>
+                <br/>
+                <span class="ignored-method-name">movetoElement</span>
+                <br/>
                 <span class="ignored-method-name">DuplicatesizeValidates</span>
+                <br/>
+                <span class="ignored-method-name">pditFieldValidation</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -430,101 +362,47 @@ return data;
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.seleniumtraining.test.VerifyButtonOperations</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">174 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">pageTitleValidation</span>
-                <span class="method-start">3065 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardownMethod([TestResult name=pageTitleValidation status=SUCCESS method=VerifyButtonOperations.pageTitleValidatio...)</span>
-                <span class="method-start">3312 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">pditFieldValidation</span>
-                <span class="method-start">4188 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardownMethod([TestResult name=pditFieldValidation status=SUCCESS method=VerifyButtonOperations.pditFieldValidatio...)</span>
-                <span class="method-start">4230 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">movetoElement</span>
-                <span class="method-start">4472 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardownMethod([TestResult name=movetoElement status=SUCCESS method=VerifyButtonOperations.movetoElement()[pri:3, i...)</span>
-                <span class="method-start">4635 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">colorValidate</span>
-                <span class="method-start">4853 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardownMethod([TestResult name=colorValidate status=SUCCESS method=VerifyButtonOperations.colorValidate()[pri:4, i...)</span>
-                <span class="method-start">4892 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">sizeValidate</span>
-                <span class="method-start">5072 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardownMethod([TestResult name=sizeValidate status=SUCCESS method=VerifyButtonOperations.sizeValidate()[pri:6, ins...)</span>
-                <span class="method-start">5094 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">5247 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.seleniumtraining.test.VerifyEditOperations</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">launchApplication</span>
-                <span class="method-start">5946 ms</span>
+                <span class="method-start">235 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">PageTitleValidation</span>
-                <span class="method-start">8449 ms</span>
+                <span class="method-start">7157 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardownMethod([TestResult name=PageTitleValidation status=SUCCESS method=VerifyEditOperations.PageTitleValidation(...)</span>
-                <span class="method-start">8632 ms</span>
+                <span class="method-start">7624 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">EditFieldValidation</span>
-                <span class="method-start">8913 ms</span>
+                <span class="method-start">8627 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardownMethod([TestResult name=EditFieldValidation status=SKIP method=VerifyEditOperations.EditFieldValidation()[p...)</span>
-                <span class="method-start">9160 ms</span>
+                <span class="method-start">9015 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">EditFieldValidation</span>
-                <span class="method-start">9182 ms</span>
+                <span class="method-start">9044 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardownMethod([TestResult name=EditFieldValidation status=SKIP method=VerifyEditOperations.EditFieldValidation()[p...)</span>
-                <span class="method-start">9331 ms</span>
+                <span class="method-start">9338 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">EditFieldValidation</span>
-                <span class="method-start">9343 ms</span>
+                <span class="method-start">9367 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardownMethod([TestResult name=EditFieldValidation status=FAILURE method=VerifyEditOperations.EditFieldValidation(...)</span>
-                <span class="method-start">9485 ms</span>
+                <span class="method-start">9569 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9705 ms</span>
+                <span class="method-start">9767 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

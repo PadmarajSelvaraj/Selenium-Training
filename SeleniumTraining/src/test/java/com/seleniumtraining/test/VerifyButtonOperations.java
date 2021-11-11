@@ -80,7 +80,7 @@ public class VerifyButtonOperations extends TestBase {
 	  
 	  @Test(priority = 6,dependsOnMethods= { "pageTitleValidation" }) 
 	  
-	  public void sizeValidate() {
+	  public void sizeValidate () {
 	  
 		 reportLog = reports.createTest("sizeValidate");
 	  int[] buttonSize = butnUIPage.checkSize();

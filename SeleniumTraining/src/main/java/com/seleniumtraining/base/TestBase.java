@@ -41,7 +41,7 @@ public class TestBase {
 Properties prop;
 public static Logger log = Logger.getLogger(new Object() { }.getClass().getEnclosingClass());
 public String FilePath;
-protected static WebDriver driver ;
+public static WebDriver driver ;
 protected static ExtentReports reports;
 protected static ExtentTest reportLog;
 

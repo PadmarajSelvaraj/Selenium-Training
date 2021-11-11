@@ -1,3 +1,6 @@
 eclipse.preferences.version=1
 encoding//src/main/java/com/seleniumtraining/testdata/LearnExcelDatas.java=UTF-8
 encoding//src/main/java/com/seleniumtraining/testdata/LearnPDFDatas.java=UTF-8
+encoding//src/test/java/Locators/DataProviderExcel.java=UTF-8
+encoding//src/test/java/Locators/Tooltip.java=UTF-8
+encoding//src/test/java/Locators/Uploads.java=UTF-8

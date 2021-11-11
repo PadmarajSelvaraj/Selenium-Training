@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.seleniumtraining.base.TestBase">
+      <class name="Locators.DataProviderExcel">
         <methods>
-          <include name="launchApplication"/>
-          <include name="setup"/>
-          <include name="teardownMethod"/>
-          <include name="tearDown"/>
+          <include name="receiveData"/>
         </methods>
-      </class> <!-- com.seleniumtraining.base.TestBase -->
+      </class> <!-- Locators.DataProviderExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
