@@ -6,6 +6,11 @@
     <listener class-name="com.seleniumtraining.utils.Log4jListeners"/>
   </listeners>
   <test thread-count="5" name="EditUITest(failed)">
+    <groups>
+      <run>
+        <exclude name="sanity"/>
+      </run>
+    </groups>
     <classes>
       <class name="com.seleniumtraining.test.VerifyEditOperations">
         <methods>
