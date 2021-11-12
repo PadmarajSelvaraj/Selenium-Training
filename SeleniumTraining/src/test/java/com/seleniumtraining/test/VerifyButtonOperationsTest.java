@@ -9,7 +9,7 @@ import com.seleniumtraining.pages.HomePage;
 
 
 
-public class VerifyButtonOperations extends TestBase {
+public class VerifyButtonOperationsTest extends TestBase {
 	
 	HomePage hompage ;
 	ButtonUIPage butnUIPage;

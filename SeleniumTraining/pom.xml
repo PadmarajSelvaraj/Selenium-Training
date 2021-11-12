@@ -11,6 +11,13 @@
     <artifactId>selenium-java</artifactId>
     <version>3.141.59</version>
 </dependency>
+
+  <dependency>
+  <groupId>org.testng</groupId>
+  <artifactId>testng</artifactId>
+  <version>6.0.1</version>
+  <scope>compile</scope>
+</dependency>
   <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 <dependency>
     <groupId>io.github.bonigarcia</groupId>

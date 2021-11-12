@@ -18,7 +18,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 
-public class VerifyEditOperations extends TestBase {
+public class VerifyEditOperationsTest extends TestBase {
 	HomePage page ;
 	FieldsPage fp;
 	
