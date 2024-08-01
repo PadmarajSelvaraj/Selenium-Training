@@ -45,7 +45,7 @@ public static WebDriver driver ;
 protected static ExtentReports reports;
 protected static ExtentTest reportLog;
 
-//this need to be executed before the test
+//this need to be executed before the test for any browser
 	@BeforeTest
 	public void launchApplication() {
 		
