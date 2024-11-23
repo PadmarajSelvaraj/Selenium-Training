@@ -36,7 +36,7 @@ import com.seleniumtraining.utils.TestUtils;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
-//This is written in test base	
+//removed the test base
 
 Properties prop;
 public static Logger log = Logger.getLogger(new Object() { }.getClass().getEnclosingClass());
