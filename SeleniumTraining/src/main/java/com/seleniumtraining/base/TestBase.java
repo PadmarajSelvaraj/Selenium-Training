@@ -36,7 +36,7 @@ import com.seleniumtraining.utils.TestUtils;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
-//synchronoize the test baxe
+//synchronoize
 
 Properties prop;
 public static Logger log = Logger.getLogger(new Object() { }.getClass().getEnclosingClass());
